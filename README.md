@@ -1,16 +1,23 @@
-# React + Vite
+# upath
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An AI-powered career reasoning tool. Describe where you are and where you want to go — upath maps realistic paths forward, surfaces honest tradeoffs, and builds a concrete 30/60/90-day action plan.
 
-Currently, two official plugins are available:
+## How it works
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. **Your situation** — input your current role, background, goal, and constraints (visa, budget, risk tolerance, location)
+2. **Path map** — Claude generates 3-4 distinct career paths with fit scores, pros, and cons, visualized as an interactive branch tree
+3. **Action plan** — select a path and get a specific 30/60/90-day plan, a one-sentence rationale, and a blind spot warning
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React + Vite
+- Claude API (claude-sonnet-4-6)
+- Deployed on Vercel
 
-## Expanding the Oxlint configuration
+## Run locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+```
+
+Add a `.env` file:
